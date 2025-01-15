@@ -35,3 +35,7 @@ function contact(){
     window.location.href='./contact.html'
 }
 
+function core(){
+    window.location.href='./Html/core.html'
+}
+

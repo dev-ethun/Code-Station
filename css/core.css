@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    font-family: op;
+    padding: 0;
+    user-select: none;
+}
+
+
+@font-face {
+    font-family: op;
+    src: url(../font/Poppins-Regular.ttf);
+}
+body{
+    /* background-color: #ecf3fac6; */
+}
+
+#HtmlTu{
+    font-size: 1.5rem;
+    font-weight: bold;
+    width: 100%;
+    height: auto;
+    padding-bottom: 10%;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    padding-left: 6%;
+    /* background-color: blue; */
+    display: flex;
+    border-top-right-radius: 30px;
+    /* padding: 10px; */
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: auto;
+
+}
+
+h2{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    /* display: flex; */
+    text-align: center;
+
+}
+#best-road{
+    margin-top: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    /* background-color: black; */
+    height: auto
+}
+.catagories{
+    width:100%;
+    height: auto;
+    display: flex;
+    padding-bottom: 20%;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10%;
+    /* background-color: blue; */
+}
+#back{
+    margin-top: 5%;
+    width: 30%;
+    margin-left: 5%;
+    font-size: 1.3rem;
+    color: black;
+}
+.content{
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    /* box-shadow: 0px 05px 10px rgba(107, 107, 107, 0.479); */
+    font-size: 1rem;
+    align-items: center;
+    /* flex-direction: column; */
+    height: 3.7rem;
+    color: white;
+    transition-duration: 0.4s;
+    background-color:black;
+    /* color: white; */
+}
+
+.content:active{
+    box-shadow: none;
+    transform: scale(.9);
+}
+#dot{
+    width: 8px;
+    border-radius: 50px;
+    height: 8px;
+    background-color:red;
+}
+
+
+#icon{
+    color: black;
+    z-index: 1000;
+    font-size: 5rem;
+}
+
+mark{
+    height: 5rem;
+    font-size: 1.2rem;
+    padding: 10px;
+    border-radius:5px;
+    background-color: blue;
+    color: white;
+}
