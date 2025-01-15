@@ -66,7 +66,7 @@
     width: 60%;
     background-size: cover;
     height: 10rem;
-    background-image: url(../Pic/welcome.jpg);
+    /* background-image: url(./Pic/welcome.jpg); */
 }
 
 
@@ -182,8 +182,8 @@
     position: absolute;
     width: 100%;
     height: 4rem;
-    top: 0;
-    font-size: 2rem;
+    top: 10px;
+    font-size: 1.4rem;
     display: flex;
     justify-content: center;
     align-items: center;
