@@ -139,6 +139,9 @@
 .sidebar a {
     display: block;
     color: #fff;
+    margin-left: 5%;
+    align-items: center;
+    display: flex;
     padding: 15px 25px;
     cursor: none;
     text-decoration: none;
@@ -199,6 +202,9 @@
     margin-left: 10%;
     font-size: 1.2rem;
   
+}
+#icon{
+    font-size: .7rem;
 }
 
 p{
