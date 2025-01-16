@@ -38,3 +38,7 @@ document.getElementById("doc6").textContent =' <h1>  ';
 document.getElementById("doc7").textContent =' <p>  ';
 
 
+function toggleSidebar() {
+    document.getElementById("sidebar").classList.toggle("active");
+}
+

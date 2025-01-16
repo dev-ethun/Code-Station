@@ -10,15 +10,18 @@
     font-family: op;
     src: url(../font/Poppins-Regular.ttf);
 }
+#sidebar{
+    top:0;
+}
 
 
 #HtmlTu{
     font-size: 1.5rem;
     font-weight: bold;
     width: 100%;
+    position: absolute;
     height: auto;
     padding-bottom: 10%;
-    margin-top: 10%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,11 +31,13 @@ p{
     padding-left: 6%;
     /* background-color: blue; */
     display: flex;
+    margin-top: 60%;
+    position: absolute;
     border-top-right-radius: 30px;
     /* padding: 10px; */
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 75%;
     height: auto;
 
 }
@@ -102,8 +107,9 @@ h2{
 }
 
 
-#icon{
+#icon2{
     color: black;
+    margin-top: 15%;
     z-index: 1000;
     font-size: 5rem;
 }
@@ -115,4 +121,86 @@ mark{
     border-radius:5px;
     background-color: blue;
     color: white;
+}
+
+
+#basics{
+width: 100%;
+z-index: -1;
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+height: auto;
+/* background-color: black; */
+padding-top: 10%;
+padding-bottom: 10%;
+}
+
+.box{
+    width: auto;
+    border-radius: 10px;
+    height: 3rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    padding: 20px;
+    margin-left: 3%;
+    /* background-color: blue; */
+    box-shadow: 0px 0px 010px 5px rgba(162, 162, 162, 0.17);
+}
+.base{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    align-items: center;
+    margin-top: 20%;
+}
+/* 
+#basics :nth-child(1){
+    display: flex;
+    justify-content: center;
+    box-shadow: none;
+    align-items: center;
+    flex-direction: row;
+    font-weight: bold;
+    font-size: 1.6rem;
+    flex-basis: 270px;
+    background-color: rgb(255, 255, 255);
+    height: 4rem;
+} */
+
+#basics :nth-child(1){
+    flex-basis: 200px;
+}
+#basics :nth-child(2){
+    flex-basis: 160px;
+}
+
+#basics :nth-child(3){
+    flex-basis: 150px;
+}
+
+#basics :nth-child(4){
+    flex-basis: 100px;
+}
+
+#basics :nth-child(6){
+    flex-basis: 200px;
+}
+
+hr{
+    width: 50%;
+    margin-top: 2%;
+    border-radius: 50px;
+    margin-left: 25%;
+    height: .4rem;
+    border: none;
+    background-color: rgb(219, 219, 219);
 }

@@ -5,25 +5,52 @@
     <meta name="viewport" content="width=device-width, user-scalable="no">
     <title>Core Page</title>
     <link rel="stylesheet" href="../css/core.css">
+    <link rel="stylesheet" href="../style.css">
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
     
-    <div  id="back" onclick="window.location.href='../course.html'"><i class="fa-solid fa-arrow-left"></i></div>
+    <!-- <div  id="back" onclick="window.location.href='../course.html'"><i class="fa-solid fa-arrow-left"></i></div> -->
 
+     <!-- Menu Icon -->
+     <div class="menu-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars-staggered"></i>
+     </div>
     
+     <!-- Hidden Sidebar -->
+     <div class="sidebar" id="sidebar">
+        <h2>Code  <font  color="#80d4ff">Station</font> </h2>
+        <a href="#" onclick="window.location.href='../index.html'"><i class="fa-solid fa-house-laptop" style="color: #74C0FC;"></i>&nbsp; Home</a>
+        <a href="#" onclick="window.location.href='../Edu.html'"><i class="fa-solid fa-book-open-reader " style="color: #74c0fc;"></i> &nbsp; Education</a>
+       <a href="#"onclick="window.location.href='../course.html'"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i> &nbsp; <font color="#a6a6a6"> <b>Course</b> </font></a>
+        <a href="#" onclick="window.location.href='../project.html'"> <i class="fa-solid fa-diagram-project" style="color: #74C0FC;"></i> &nbsp; Project</a>
+        <a href="#" onclick="window.location.href='../about.html'"> <i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> &nbsp; About Me</a>
+        <a href="#" onclick="window.location.href='../contact.html'">  <i class="fa-solid fa-phone" style="color: #74C0FC;"> &nbsp; </i>Contact</a>
+  </div>
+
+
     <h1 class="animate__animated animate__fadeIn" id="HtmlTu"><font  color="#e67300">Html &nbsp;</font> Tutorials</h1>
-    <p class="animate__animated animate__fadeIn" >In this Html Tutorial We can Learn Everything that we need in college Level.</p>
+    <!-- <p class="animate__animated animate__fadeIn" >In this Html Tutorial We can Learn Everything that we need in college Level.</p> -->
 
     <div id="best-road" class="animate__animated animate__fadeIn" >
-    <i id="icon"class="fa-brands fa-html5" style="color: #eb7100;"></i>
+    <i id="icon2"class="fa-brands fa-html5" style="color: #eb7100;"></i>
 </div>
 
-<h2>Let's <font  color="#6666ff">Explore</font></h2>
+<!-- <h2>Let's <font  color="#6666ff">Explore</font></h2> -->
 
+<div class="base">Html &nbsp;<font color="blue">Basics</font> </div> <hr>
+<div id="basics">
+    <div class="box"> Introduction</div>
+    <div class="box">Code Editor</div>
+    <div class="box">Comments</div>
+    <div class="box">Link</div>
+    <div class="box">Image</div>
+    <div class="box">Basic Tag</div>
+</div>
 
+<!-- 
     <div class="catagories"> 
                <div class="content" onclick="intro()">  <i class="fa-solid fa-arrow-right" style="color: #82b5fd;"></i> &nbsp;   Html Introduction</div>
                <div class="content" onclick="editor()"><i class="fa-solid fa-arrow-right" style="color: #f7ce19;"></i> &nbsp;   Html Editors </div>
@@ -41,10 +68,10 @@
                <div class="content" onclick="tables()"><i class="fa-solid fa-arrow-right" style="color: #fb7196;"></i> &nbsp;   Html Tables</div>
                <div class="content" onclick="list()"><i class="fa-solid fa-arrow-right" style="color: #82b5fd;"></i> &nbsp;   Html List</div>
             
-    </div>
+    </div> -->
 
 
-
+<!-- <script src="/Hello.js"></script> -->
 <script src="../html.js"></script>
 </body>
 </html>
