@@ -151,8 +151,16 @@ padding-bottom: 30%;
     align-items: center;
     margin-top: 3%;
     padding: 20px;
+    transition-duration: .4s ;
     margin-left: 2%;
     box-shadow: 0px 0px 010px 5px rgba(162, 162, 162, 0.17);
+}
+
+#box:hover{
+    background-color: gold;
+}
+#box:active{
+    transform: scale(.9);
 }
 .base{
     width: 100%;
