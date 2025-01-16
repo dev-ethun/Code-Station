@@ -4,7 +4,7 @@
     top: 0;
 }
 body{
-    background-color: rgba(240, 248, 255, 0.481);
+    /* background-color: rgba(240, 248, 255, 0.481); */
 }
 
 .course-content{
@@ -27,11 +27,13 @@ body{
     align-items: center;
     flex-direction: column;
     height: auto;
+    /* color: white; */
+    border: .5px solid rgba(192, 192, 192, 0.459);
     padding: 20px;
-    background-color:white;
+    /* background-color:black; */
     /* background-size: cover; */
     background-repeat: no-repeat;
-    box-shadow: 0px 05px 10px lavender;
+    box-shadow: 0px 0px 010px 5px rgba(225, 225, 225, 0.49);
     gap: 10px;
     padding-bottom: 10%;
     margin-top: 15%;
@@ -65,9 +67,9 @@ body{
     color: black;
     border-radius: 50px;
     padding: 10px;
-    background-color: aliceblue;
+    background-color: gold;
     transition-duration: .2s;
-    box-shadow: 0px 5px 5px silver;
+    box-shadow: 0px 05px 05px 0px rgba(192, 192, 192, 0.551);
 }
 
 
