@@ -36,6 +36,7 @@
         position: absolute;
         align-items: center;
     }
+
     .wel-text{
         width: 90%;
         height: auto;
@@ -113,6 +114,7 @@
 .menu-icon:active{
     transform: scale(.8);
 }
+
 
 /* Sidebar (Hidden by Default) */
 .sidebar {
