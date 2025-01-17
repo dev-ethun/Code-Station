@@ -38,3 +38,4 @@ function contact(){
 function core(){
     window.location.href='./Html/core.html'
 }
+
