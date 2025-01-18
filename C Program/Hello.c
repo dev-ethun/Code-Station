@@ -10,13 +10,13 @@ int main(){
 
 
 //Minus Equation
-#include <stdio.h>
-int main(){
-    int a,b,m;
-    scanf("%d %d",&a,&b);
-    m=a-b;
-    printf("%d",m);
-    return 0;
-}
+// #include <stdio.h>
+// int main(){
+//     int a,b,m;
+//     scanf("%d %d",&a,&b);
+//     m=a-b;
+//     printf("%d",m);
+//     return 0;
+// }
 
 
