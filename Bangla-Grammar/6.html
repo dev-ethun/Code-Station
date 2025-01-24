@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title>Code Station </title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+     <!-- Menu Icon -->
+     <div class="menu-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars-staggered"></i>
+     </div>
+     
+
+
+     <!-- Hidden Sidebar -->
+     <div class="sidebar" id="sidebar">
+         <h2 onclick="window.location.href='../index.html'">Code  <font  color="#80d4ff">Station</font> </h2>
+         <div class="content-div">
+
+            <details>
+                   <summary id="bangla">বাংলা</summary>
+                <ul id="bangla" type="disc">
+                    <li id="bangla" class="hov"  onclick="window.location.href='../Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ব্যাকরণ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> প্রবন্ধ রচনা </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারাংশ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারমর্ম</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অনুচ্ছেদ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> খুদে গল্প</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দিনলিপি</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সংলাপ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i>  চিঠি-পত্র</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দরখাস্ত</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাষণ লিখন</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অভিজ্ঞতা বর্ণনা</li> <br>
+                    <!-- <li id="bangla" class="hov"  onclick="window.location.href='./Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li> -->
+                </ul>
+                </details>
+
+                <details>
+                    <summary>English</summary>
+                 <ul id="bangla" type="disc">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Grammar</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Paragraph </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Letter </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Application</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Email</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Completing Story</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Report Writing</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Graphs & Chart</li> <br>
+                        
+                 </ul>
+                 </details>
+                 
+                <details>
+                    <summary>ICT</summary>
+                 <ul id="bangla" type="disc"  class="pad">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 1</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 2 </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 3</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 4</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 5</li> <br>
+                        
+                 </ul>
+                 </details>
+         <!-- <a href="#" onclick="home()"><i class="fa-solid fa-house-laptop" style="color: #74C0FC;"></i>&nbsp; Home</a> 
+         <a href="#" onclick="Edu()"><i class="fa-solid fa-book-open-reader " style="color: #74c0fc;"></i> &nbsp; <font  color="silver"><b>Education</b></font></a> 
+         <a href="#"onclick="course()"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i> &nbsp;Course</a>
+         <a href="#" onclick="project()"> <i class="fa-solid fa-diagram-project" style="color: #74C0FC;"></i> &nbsp; Projects</a>
+         <a href="#" onclick="about()"> <i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> &nbsp; About Me</a>
+         <a href="#" onclick="contact()">  <i class="fa-solid fa-phone" style="color: #74C0FC;"> &nbsp; </i>Contact</a> -->
+
+        </div> <br> <br> <br> <br> <br> <br>
+</div>
+<br>
+<div class="animate__animated animate__fadeIn" id="vab1">  অর্থই অনর্থের মূল <div class="line"></div></div>
+<p id="content"  class="animate__animated animate__fadeIn">
+   <b> মূলভাব &nbsp;<i class="fa-regular fa-clock fa-sm" style="color: #005eff;"></i></b> 
+   অর্থ বা সম্পদ মানব জীবনের জন্যে অপরিহার্য হলেও অর্থের যথাযোগ্য ব্যবহার না হলে ব্যক্তি ও সমাজ
+    জীবনে নেমে আসে অকল্যাণ। 
+   অর্থ উপার্জনের পন্থা যদি সৎ না হয়, কিংবা অন্যায় স্বার্থ হাসিলের জন্যে যদি অর্থের অপব্যবহার 
+   করা হয়, কিংবা হীন স্বার্থে ব্যক্তিগত বা জাতীয় সম্পদের অপচয় করা হয় তবে তা বিরাট ক্ষতির কারণ হয়ে দাঁড়ায়।
+
+<br> 
+
+    <br> <b>সম্প্রসারিত-ভাব <i class="fa-regular fa-circle-check fa-sm" style="color: #27b400;"></i> </b>
+    জীবনে চলতে হলে অর্থের প্রয়োজন। আবার অতিরিক্ত অর্থের কোপানলে পড়েও মানুষ ধ্বংস হয়।
+     কথায় বলে দুনিয়াটা টাকার বশ। এ পৃথিবীতে অর্থ বা ঐশ্বর্য মানুষের একান্ত কামনা। 
+    অর্থের জন্য মানুষ জীবনসংগ্রামে লিপ্ত হয়। এ পৃথিবীতে বেঁচে থাকার জন্য অর্থের প্রয়োজন অনস্বীকার্য। 
+    জীবনের প্রতিক্ষেত্রে অর্থের চাহিদা অপূরণীয়। মানুষ প্রতিনিয়ত জীবন সংগ্রামে সম্পদের মোহে লিপ্ত। 
+    মানুষ তার কাঙ্ক্ষিত অর্থ অর্জনের জন্য কঠোর পরিশ্রম করে। বর্তমান পৃথিবীতে একমাত্র অর্থের 
+    মাপকাঠি দ্বারাই প্রতিপত্তি ও সম্মান নির্ণীত হয়। বিপদে-আপদে, উৎসবে, জন্ম-মৃত্যুতে জীবনের প্রতিটি 
+    ক্ষেত্রেই অর্থের প্রয়োজন। তাই মীর মশাররফ হোসেন দুঃখ করে বলেছেন, "জন্মমাত্র টাকা, জীবনে টাকা,
+     জীবনান্তে টাকা, জগতে টাকারই খেলা।”   
+<br> <br>
+
+পার্থিব জীবনে অর্থের অধিক প্রয়োজন হলেও পৃথিবীতে অন্যায়, অত্যাচার, 
+অসুন্দর ও অঘটনের মূল উৎসও হলো অর্থ। অর্থকে কেন্দ্র করেই চলেছে মানুষের 
+মধ্যে দুর্নীতির প্রতিযোগিতা। মানুষের জীবনে অর্থের প্রয়োজন কখনই অস্বীকার 
+করা যায় না। কিন্তু অর্থ অনেক সমস্যার সৃষ্টি করে; অনেক অনর্থ ঘটায়। অর্থের 
+ক্ষতিকর প্রভাব আছে বলে এর প্রাচুর্য অথবা দুর্লভ্যতা জটিলতার দিকে ঠেলে দেয়। 
+অর্থের মোহ মানুষকে অন্যায়ের পথে নিয়ে যায়। মানুষ জীবনধারণের জন্য অর্থ উপার্জন করে, 
+এর জন্য মানুষকে যথেষ্ট শ্রম দিতে হয়।
+<br> <br> <br> <br>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Hello.js"></script>
+</body>
+</html>
+

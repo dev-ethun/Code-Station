@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title>Code Station </title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+     <!-- Menu Icon -->
+     <div class="menu-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars-staggered"></i>
+     </div>
+     
+
+
+     <!-- Hidden Sidebar -->
+     <div class="sidebar" id="sidebar">
+         <h2 onclick="window.location.href='../index.html'">Code  <font  color="#80d4ff">Station</font> </h2>
+         <div class="content-div">
+
+            <details>
+                   <summary id="bangla">বাংলা</summary>
+                <ul id="bangla" type="disc">
+                    <li id="bangla" class="hov"  onclick="window.location.href='../Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ব্যাকরণ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> প্রবন্ধ রচনা </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারাংশ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারমর্ম</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অনুচ্ছেদ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> খুদে গল্প</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দিনলিপি</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সংলাপ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i>  চিঠি-পত্র</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দরখাস্ত</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাষণ লিখন</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অভিজ্ঞতা বর্ণনা</li> <br>
+                    <!-- <li id="bangla" class="hov"  onclick="window.location.href='./Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li> -->
+                </ul>
+                </details>
+
+                <details>
+                    <summary>English</summary>
+                 <ul id="bangla" type="disc">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Grammar</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Paragraph </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Letter </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Application</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Email</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Completing Story</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Report Writing</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Graphs & Chart</li> <br>
+                        
+                 </ul>
+                 </details>
+                 
+                <details>
+                    <summary>ICT</summary>
+                 <ul id="bangla" type="disc"  class="pad">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 1</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 2 </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 3</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 4</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 5</li> <br>
+                        
+                 </ul>
+                 </details>
+         <!-- <a href="#" onclick="home()"><i class="fa-solid fa-house-laptop" style="color: #74C0FC;"></i>&nbsp; Home</a> 
+         <a href="#" onclick="Edu()"><i class="fa-solid fa-book-open-reader " style="color: #74c0fc;"></i> &nbsp; <font  color="silver"><b>Education</b></font></a> 
+         <a href="#"onclick="course()"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i> &nbsp;Course</a>
+         <a href="#" onclick="project()"> <i class="fa-solid fa-diagram-project" style="color: #74C0FC;"></i> &nbsp; Projects</a>
+         <a href="#" onclick="about()"> <i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> &nbsp; About Me</a>
+         <a href="#" onclick="contact()">  <i class="fa-solid fa-phone" style="color: #74C0FC;"> &nbsp; </i>Contact</a> -->
+
+        </div> <br> <br> <br> <br> <br> <br>
+</div>
+<br>
+<div class="animate__animated animate__fadeIn" id="vab1">  ভোগে নয়, ত্যাগেই প্রকৃত সুখ   <div class="line"></div></div>
+<p id="content"  class="animate__animated animate__fadeIn">
+   <b> মূলভাব &nbsp;<i class="fa-regular fa-clock fa-sm" style="color: #005eff;"></i></b> 
+   মানুষের যথার্থ মনুষ্যত্বের পরিচয় তার ভোগ-লালসার মাধ্যমে প্রকাশ পায় না। 
+   পরের জন্যে ত্যাগের মাধ্যমেই মানুষের মনুষ্যত্বের মহত্ত্ব ফুটে ওঠে। নিজের জীবনকে
+    ভোগবিলাসিতায় নিমজ্জিত রাখার মধ্যে হয়তো মাদক আনন্দ পাওয়া যায়, তাতে জীবনের 
+    প্রকৃত সুখ ও সার্থকতা আসে না। বরং পরের মঙ্গলের জন্যে কিছু ত্যাগ স্বীকার করতে পারলে 
+    প্রকৃত মানবোচিত সুখ অনুভব করা যায়। বস্তুত, পরের জন্যে স্বার্থ ত্যাগ করার মধ্যেই মানুষের
+     মানবিক গুণাবলির শ্রেষ্ঠ প্রকাশ ঘটে।
+
+<br> 
+
+    <br> <b>সম্প্রসারিত-ভাব <i class="fa-regular fa-circle-check fa-sm" style="color: #27b400;"></i> </b>
+    সংসারে যারা কেবল ভোগ-লালসায় আত্মমগ্ন থাকেন তারা একান্তই স্বার্থপর। 
+    পরের মঙ্গল-অমঙ্গল নিয়ে তারা ভাবেন না। পরের দুঃখ-কষ্ট-যন্ত্রণা তাদের হৃদয়ে বিন্দুমাত্র ঝড় তোলে না। 
+    এই ভোগপ্রবণ লোকদের ভোগ-লালসা অন্তহীন। যতই ভোগ করুক এদের ভোগের নেশা শেষ হয় না। বরং 
+    ক্রমাগত ভোগের আকাঙ্ক্ষা আরও বেড়ে যায়। এই ধরনের মানুষের চাহিদারও কোনো শেষ নেই। এরা যত বেশি পায় তত
+     বেশি চায়। এ ধরনের স্বার্থান্ধ ও আত্মকেন্দ্রিক মানুষ সমাজে বরণীয় হতে পারে না। বরং ত্যাগী মানব 
+     ব্রতী মানুষই সমাজে স্বরণীয়-বরণীয় মর্যাদার আসনে অধিষ্ঠিত হন। কারণ, মনুষ্যত্বের প্রকৃত মহিমা উদ্ভাসিত 
+     হয়ে ওঠে ত্যাগের মধ্যে। নিজের স্বার্থকে বড় করে না দেখে পরের কল্যাণে জীবন উৎসর্গ করাতেই মানুষের মহত্ত্বের 
+     পরিচয় পাওয়া যায়। এ পৃথিবীতে মানুষের অস্তিত্বের সঙ্গেও রয়েছে পরার্থপরতার যোগ। মানুষ একলা বাঁচতে পারে না। <br> <br>
+      সবাইকে নিয়ে তাকে বাঁচতে হয়। তাই নিজের সুখের জন্য কেবল হা-হুতাশ করে, সুখ সুখ করে ক্রন্দন করে সুখ পাওয়া 
+      যায় না। বরং দেশের ও সমাজের জন্যে কিছু ত্যাগ করার মধ্যেই প্রকৃত সুখ। ত্যাগের মনোভাব মানুষকে মহৎ করে তোলে, 
+      অন্তরকে অপার আনন্দে পূর্ণ করে দেয়। অসহায়, বিপন্ন ও দুর্দশাগ্রস্ত, মানুষের কল্যাণে তাঁদের পাশে 
+      দাঁড়াতে পারলে অন্তরে অনির্বচনীয় শান্তি ও সুখের ধারা বয়ে যায়। তাই প্রত্যেক মানুষের উচিত ত্যাগের 
+      মাধ্যমে মানুষ, দেশ ও জাতির কল্যাণে কাজ করা। পরের জন্যে, দীন-দুঃখীর সেবায় সাধ্যমত ব্রতী হওয়া। 
+      এ ধরনের ত্যাগের সুখ অলূল্য। তা জীবনকে মনুষ্যত্বের মহিমায় উদ্ভাসিত করে তোলে।
+
+<br> <br> <br> <br>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Hello.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title>Code Station </title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+     <!-- Menu Icon -->
+     <div class="menu-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars-staggered"></i>
+     </div>
+     
+
+
+     <!-- Hidden Sidebar -->
+     <div class="sidebar" id="sidebar">
+         <h2 onclick="window.location.href='../index.html'">Code  <font  color="#80d4ff">Station</font> </h2>
+         <div class="content-div">
+
+            <details>
+                   <summary id="bangla">বাংলা</summary>
+                <ul id="bangla" type="disc">
+                    <li id="bangla" class="hov"  onclick="window.location.href='../Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ব্যাকরণ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> প্রবন্ধ রচনা </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারাংশ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারমর্ম</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অনুচ্ছেদ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> খুদে গল্প</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দিনলিপি</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সংলাপ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i>  চিঠি-পত্র</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দরখাস্ত</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাষণ লিখন</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অভিজ্ঞতা বর্ণনা</li> <br>
+                    <!-- <li id="bangla" class="hov"  onclick="window.location.href='./Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li> -->
+                </ul>
+                </details>
+
+                <details>
+                    <summary>English</summary>
+                 <ul id="bangla" type="disc">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Grammar</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Paragraph </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Letter </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Application</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Email</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Completing Story</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Report Writing</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Graphs & Chart</li> <br>
+                        
+                 </ul>
+                 </details>
+                 
+                <details>
+                    <summary>ICT</summary>
+                 <ul id="bangla" type="disc"  class="pad">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 1</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 2 </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 3</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 4</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 5</li> <br>
+                        
+                 </ul>
+                 </details>
+         <!-- <a href="#" onclick="home()"><i class="fa-solid fa-house-laptop" style="color: #74C0FC;"></i>&nbsp; Home</a> 
+         <a href="#" onclick="Edu()"><i class="fa-solid fa-book-open-reader " style="color: #74c0fc;"></i> &nbsp; <font  color="silver"><b>Education</b></font></a> 
+         <a href="#"onclick="course()"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i> &nbsp;Course</a>
+         <a href="#" onclick="project()"> <i class="fa-solid fa-diagram-project" style="color: #74C0FC;"></i> &nbsp; Projects</a>
+         <a href="#" onclick="about()"> <i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> &nbsp; About Me</a>
+         <a href="#" onclick="contact()">  <i class="fa-solid fa-phone" style="color: #74C0FC;"> &nbsp; </i>Contact</a> -->
+
+        </div> <br> <br> <br> <br> <br> <br>
+</div>
+<br>
+<div class="animate__animated animate__fadeIn" id="vab1">  শিক্ষাই জাতির মেরুদণ্ড  <div class="line"></div></div>
+<p id="content"  class="animate__animated animate__fadeIn">
+   <b> মূলভাব &nbsp;<i class="fa-regular fa-clock fa-sm" style="color: #005eff;"></i></b> 
+   শিক্ষা অমূল্য সম্পদ। একটি জাতির বিকাশ ও উন্নয়নের জন্য শিক্ষার ভূমিকা অপরিহার্য।
+   শিক্ষা জাতির মেরুদণ্ড ও উন্নতির পূর্বশর্ত। মানবদেহের অঙ্গ-প্রত্যঙ্গের মধ্যে মেরুদণ্ডের অপরিহার্যতা 
+   অপরিসীম। মেরুদণ্ড ছাড়া মানুষ যেমন চলাচল করতে পারে না, 
+  তেমনি শিক্ষা ছাড়া একটি জাতি উন্নতির চরম শিখরে আরোহণ করতে পারে না। মেরুদণ্ডহীন প্রাণী যেমন 
+  পরমুখাপেক্ষী হয়ে জীবন কাটায় তেমনি শিক্ষাহীন একটি জাতি পরমুখাপেক্ষী হয়ে পড়ে।
+
+<br> 
+
+    <br> <b>সম্প্রসারিত-ভাব <i class="fa-regular fa-circle-check fa-sm" style="color: #27b400;"></i> </b>
+    মানবজীবন তথা জাতীয় জীবনে নিরক্ষরতার
+
+    মতো নারকীয় অভিশাপ আর নেই। বিদ্যাহীন মানুষ পশু সমতুল্য। 
+    তাই কবি বলেছেন-  <br> <br> <i>
+    "বিদ্যাহীন মানুষ পশুর সমান" </i><br>  শিক্ষা মানুষকে সত্যিকার মানুষরূপে গড়ে তুলতে সাহয্য করে। 
+    আর শিক্ষাহীনতা মানুষকে অমানুষ করে তোলে। তাই আল্লাহ তায়ালা মানুষকে সৃষ্টি করে প্রথমেই জ্ঞান দান করেন
+     এবং শিক্ষার গুরুত্ব প্রতিপন্ন করতে তিনি হযরত মুহাম্মদ (স)-এর ওপর কুরআনের প্রথম বাণী নাযিল করেন 'ইকরা' 
+     অর্থাৎ 'পড়'। বিশ্বনবি (স) বলেছেন, "শিক্ষালাভের জন্য সুদূর চীনদেশে যেতে হলেও যাও।" <br> <br>
+      মহানবি (স) আরও বলেছেন- "শহীদের রক্তের চেয়ে বিদ্বানের কলমের কালির মূল্য ও মর্যাদা অনেক বেশি।" নিরক্ষরতা
+       সমাজের শত্রু, দেশের শত্রু, জাতির শত্রু, জগতের শত্রু, এবং আল্লাহর শত্রু। দেশমাতৃকার উন্নতির জন্য তাই সর্বপ্রথম 
+        প্রয়োজন দেশের আপামর জনসাধারণকে শিক্ষিত করে তোলা।
+         ইংরেজিতে একটি প্রবাদ আছে- Education is the backbone of a nation. <br> <br> 
+         তাছাড়া যে জাতি যত বেশি শিক্ষিত সে জাতি তত বেশি উন্নত। সাম্প্রতিক বিশ্ব মানুষের শক্তি ও কর্মের প্রভাবে প্রভাবিত। 
+         এ শক্তি মানুষ শিক্ষার সাহায্যে লাভ করেছে। মানুষ বিবেকবান জীব। পশুপাখির চেয়ে সে উন্নততর। এ শিক্ষা ও জ্ঞানের 
+         সাহায্যে সে অন্য প্রাণীর ওপর প্রভুত্ব করতে পারছে। জাপান বিশ্বের শিল্পোন্নত দেশগুলোর মধ্যে প্রথম স্থানে রয়েছে। 
+         অথচ জাপান দ্বিতীয় বিশ্বযুদ্ধের সময় মুখ থুবড়ে পড়েছিল।
+         কিন্তু নিরলস পরিশ্রম, শিক্ষা ও বুদ্ধির দ্বারা আজ তারা উন্নত আমেরিকানরা সারা বিশ্বের নেতৃত্ব
+          দিচ্ছে শুধুমাত্র শিক্ষার দ্বারা।  
+          <br> <br>
+          শিক্ষাহীনতা তথা নিরক্ষরতার কারণে সকল দেশের রানি আমার জন্মভূমি 
+          জননী আর ভিখারিনী, কাঙালিনী। তাই শিক্ষাকে সহজলভ্য করে প্রতিটি মানুষের দ্বারপ্রান্তে পৌঁছে দেওয়ার উপায় আমাদের উদ্ভাবন করতে হবে। 
+    তবেই দেশের জনগণ শিক্ষিত আর জনগণ শিক্ষিত হলে দেশ ও জাতি উন্নত হবে।
+
+<br> <br> <br> <br>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Hello.js"></script>
+</body>
+</html>
+

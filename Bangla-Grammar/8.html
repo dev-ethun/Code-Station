@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title>Code Station </title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+     <!-- Menu Icon -->
+     <div class="menu-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars-staggered"></i>
+     </div>
+     
+
+
+     <!-- Hidden Sidebar -->
+     <div class="sidebar" id="sidebar">
+         <h2 onclick="window.location.href='../index.html'">Code  <font  color="#80d4ff">Station</font> </h2>
+         <div class="content-div">
+
+            <details>
+                   <summary id="bangla">বাংলা</summary>
+                <ul id="bangla" type="disc">
+                    <li id="bangla" class="hov"  onclick="window.location.href='../Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ব্যাকরণ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> প্রবন্ধ রচনা </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারাংশ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারমর্ম</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অনুচ্ছেদ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> খুদে গল্প</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দিনলিপি</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সংলাপ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i>  চিঠি-পত্র</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দরখাস্ত</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাষণ লিখন</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অভিজ্ঞতা বর্ণনা</li> <br>
+                    <!-- <li id="bangla" class="hov"  onclick="window.location.href='./Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li> -->
+                </ul>
+                </details>
+
+                <details>
+                    <summary>English</summary>
+                 <ul id="bangla" type="disc">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Grammar</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Paragraph </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Letter </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Application</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Email</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Completing Story</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Report Writing</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Graphs & Chart</li> <br>
+                        
+                 </ul>
+                 </details>
+                 
+                <details>
+                    <summary>ICT</summary>
+                 <ul id="bangla" type="disc"  class="pad">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 1</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 2 </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 3</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 4</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 5</li> <br>
+                        
+                 </ul>
+                 </details>
+         <!-- <a href="#" onclick="home()"><i class="fa-solid fa-house-laptop" style="color: #74C0FC;"></i>&nbsp; Home</a> 
+         <a href="#" onclick="Edu()"><i class="fa-solid fa-book-open-reader " style="color: #74c0fc;"></i> &nbsp; <font  color="silver"><b>Education</b></font></a> 
+         <a href="#"onclick="course()"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i> &nbsp;Course</a>
+         <a href="#" onclick="project()"> <i class="fa-solid fa-diagram-project" style="color: #74C0FC;"></i> &nbsp; Projects</a>
+         <a href="#" onclick="about()"> <i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> &nbsp; About Me</a>
+         <a href="#" onclick="contact()">  <i class="fa-solid fa-phone" style="color: #74C0FC;"> &nbsp; </i>Contact</a> -->
+
+        </div> <br> <br> <br> <br> <br> <br>
+</div>
+<br>
+<div class="animate__animated animate__fadeIn" id="vab1"> বন্যেরা বনে সুন্দর ,  শিশুরা মাতৃক্রোড়ে  <div class="line"></div></div>
+<p id="content"  class="animate__animated animate__fadeIn">
+   <b> মূলভাব &nbsp;<i class="fa-regular fa-clock fa-sm" style="color: #005eff;"></i></b> 
+   সৃষ্টিজগতে সবকিছুই নিজ নিজ পরিবেশ ও পারিপার্শ্বিকতায় স্বাভাবিক সৌন্দর্যে অনুপমতা পায়। 
+   পরিবেশের সঙ্গে থাকে তার স্বাভাবিক ও স্বচ্ছন্দ সম্পর্ক। 
+   পরিবেশগত বৈশিষ্ট্যের অনুষঙ্গেই বিকশিত হয় তার স্বাভাবিক বৈশিষ্ট্য। পরিবেশ-বিচ্ছিন্ন হলে তার
+    সে স্বাভাবিক সৌন্দর্য ম্লান হয়ে হয়ে যায়।
+
+<br> 
+
+    <br> <b>সম্প্রসারিত-ভাব <i class="fa-regular fa-circle-check fa-sm" style="color: #27b400;"></i> </b>
+    মানব জীবনে পরিবেশের প্রভাব অসামান্য। বিচিত্র পরিবেশ মানব জীবনে ফেলেছে বৈচিত্র্যময় প্রভাব। 
+    অরণ্যচারী মানুষ অরণ্যক জীবনেই পায় স্বতঃস্ফূর্ত স্বাচ্ছন্দ। পরিবেশের সঙ্গে খাপ খাইয়ে নিজস্ব পন্থায় তারা 
+    প্রকৃতির সঙ্গে জীবন-সম্পর্ক গড়ে তোলে।<br> <br>
+
+    তাদের জীবন পদ্ধতি ও সংস্কৃতি গড়ে ওঠে অরণ্যক পরিবেশের সঙ্গে যোগসূত্র ও সঙ্গতি রেখে। অরণ্যলালিত সহজ-সরল
+     অনাড়ম্বর জীবনেই তারা পরিতৃপ্ত। প্রাকৃতিক পরিবেশের সঙ্গে হয় মানানসই। আলো-ঝলমল নাগরিক পরিবেশে 
+     এরা স্বাভাবিক স্বাচ্ছন্দ্য ও সৌন্দর্য হারায়। পরিবেশের সঙ্গে হয় বেমানান। অরণ্যক পটভূমিতেই অরণ্যচারী মানুষের 
+     সৌন্দর্য পায় সর্বাধিক সুষমা। শিশুর সৌন্দর্যও সর্বাধিক মহিমা পায় মায়ের কালে। মায়ের কোল শিশুর নিরাপদ ও 
+     স্বস্তিময় আশ্রয়। শিশু যখন মাতৃসান্নিধ্যে স্নেহ গ্রহণ করে তখন তার উৎফুল্ল মুখচ্ছবি, তার স্বতঃস্ফূর্ত প্রসন্নতা 
+     এক অনুপম সৌন্দর্য হয়ে দেখা দেয়।  <br> <br>
+     মায়ের কোল থেকে শিশুকে বিচ্ছিন্ন করা হলে সে কেবল সৌন্দর্য হারায় না, বরং নিরাপদ
+      আশ্রয়চ্যুত হওয়ার শংকা ও অনিশ্চয়তায় তার মুখে বেদনার ছাপ পড়ে। এমনিভাবে স্বাভাবিক জীন পরিবেশ থেকে
+       বিচ্ছিন্ন হলে প্রতিটি প্রাণীই তার স্বাভাবিক সৌন্দর্য হারায়। জীবনের সঙ্গে পরিবেশের যোগ যেমন অবিচ্ছিন্ন তেমনি
+        স্ব-স্ব পরিবেশের পটভূমিতেই জীবসত্তা পায় স্বাভাবিক সৌন্দর্য ও অনুপম বৌশিষ্ট্য। তা না হলে কেবল অসঙ্গতি ঘটে না,
+         অনেক সময় তা দৃষ্টিকটু হয়ে ওঠে।
+    
+
+<br> <br> <br> <br>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Hello.js"></script>
+</body>
+</html>
+

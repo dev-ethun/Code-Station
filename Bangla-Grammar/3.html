@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title>Code Station </title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+     <!-- Menu Icon -->
+     <div class="menu-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars-staggered"></i>
+     </div>
+     
+
+
+     <!-- Hidden Sidebar -->
+     <div class="sidebar" id="sidebar">
+         <h2 onclick="window.location.href='../index.html'">Code  <font  color="#80d4ff">Station</font> </h2>
+         <div class="content-div">
+
+            <details>
+                   <summary id="bangla">বাংলা</summary>
+                <ul id="bangla" type="disc">
+                    <li id="bangla" class="hov"  onclick="window.location.href='../Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ব্যাকরণ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> প্রবন্ধ রচনা </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারাংশ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারমর্ম</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অনুচ্ছেদ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> খুদে গল্প</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দিনলিপি</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সংলাপ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i>  চিঠি-পত্র</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দরখাস্ত</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাষণ লিখন</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অভিজ্ঞতা বর্ণনা</li> <br>
+                    <!-- <li id="bangla" class="hov"  onclick="window.location.href='./Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li> -->
+                </ul>
+                </details>
+
+                <details>
+                    <summary>English</summary>
+                 <ul id="bangla" type="disc">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Grammar</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Paragraph </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Letter </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Application</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Email</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Completing Story</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Report Writing</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Graphs & Chart</li> <br>
+                        
+                 </ul>
+                 </details>
+                 
+                <details>
+                    <summary>ICT</summary>
+                 <ul id="bangla" type="disc"  class="pad">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 1</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 2 </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 3</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 4</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 5</li> <br>
+                        
+                 </ul>
+                 </details>
+         <!-- <a href="#" onclick="home()"><i class="fa-solid fa-house-laptop" style="color: #74C0FC;"></i>&nbsp; Home</a> 
+         <a href="#" onclick="Edu()"><i class="fa-solid fa-book-open-reader " style="color: #74c0fc;"></i> &nbsp; <font  color="silver"><b>Education</b></font></a> 
+         <a href="#"onclick="course()"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i> &nbsp;Course</a>
+         <a href="#" onclick="project()"> <i class="fa-solid fa-diagram-project" style="color: #74C0FC;"></i> &nbsp; Projects</a>
+         <a href="#" onclick="about()"> <i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> &nbsp; About Me</a>
+         <a href="#" onclick="contact()">  <i class="fa-solid fa-phone" style="color: #74C0FC;"> &nbsp; </i>Contact</a> -->
+
+        </div> <br> <br> <br> <br> <br> <br>
+</div>
+<br>
+<div class="animate__animated animate__fadeIn" id="vab1"> &nbsp; &nbsp; &nbsp; অর্থ সম্পদের বিনাশ আছে, <br>  কিন্তু জ্ঞান সম্পদ কখনও বিনষ্ট হয় না  <div class="line"></div></div>
+<p id="content"  class="animate__animated animate__fadeIn"> <br>
+   <b> মূলভাব &nbsp;<i class="fa-regular fa-clock fa-sm" style="color: #005eff;"></i></b>
+   অর্থ-সম্পদ বস্তুগত। নানা কারণেই এর ক্ষয় আছে, ধ্বংস আছে। কিন্তু জ্ঞান সম্পদ চিরন্তন। এর কোনো ক্ষয় নেই, ধ্বংস নেই। <br>
+
+
+
+    <br> <b>সম্প্রসারিত-ভাব <i class="fa-regular fa-circle-check fa-sm" style="color: #27b400;"></i> </b>
+    দৈনন্দিন জীবনে অর্থ-সম্পদের প্রয়োজনীয়তা
+    অনস্বীকার্য। জীবন সংগ্রামে টিকে থাকার জন্যে অর্থ-সম্পদ গুরুত্বপূর্ণ। 
+    যে কোনো মুহুর্তে, যে কোনো কাজে টাকা-পয়সা ছাড়া চলে না। বেঁচে থাকার 
+    প্রয়োজনে নানা উপকরণের দরকার হয়। এসব কেনার জন্যে প্রয়োজন অর্থ-সম্পদ। 
+    আবার কঠিন রোগে- শোকে, তাৎক্ষণিক চাহিদা মেটাতে এসব সম্পদ বিক্রি করার প্রয়োজন হয়। 
+    অর্থ-সম্পদের নগদ মূল্য থাকলেও এর ক্ষয় ও বিনাশ আছে। প্রাকৃতিক দুর্যোগে, অপচয়, অপব্যয়ে, 
+    চুরি-ডাকাতির ফলে এসব নষ্ট হয়- হাতছাড়া হয়ে যায়। ফলে সম্পদশালী ব্যক্তিও মুহুর্তে নিঃস্ব হয়ে যেতে পারে। <br> <br>
+
+    সম্পদের মধ্যে শ্রেষ্ঠ হলো জ্ঞান। কিন্তু অর্থ সম্পদের তুলনায় এর গুরুত্ব বেশি।
+     এর বৃদ্ধি আছে, কিন্তু ক্ষয় নেই, ধ্বংস নেই, বিনাশ নেই। জ্ঞান সম্পদ অব্যয়-অক্ষয়। 
+     চর্চা ও অনুশীলনের মধ্য দিয়ে এর বিকাশ ও উৎকর্ষ ঘটে। জ্ঞান মানুষের মনকে আলোকিত 
+     করে তাকে সচেতন করে তোলে। ফলে তার বিবেক-বুদ্ধি জাগ্রত হয়। মনুষ্যত্বের বিকাশের 
+     ফলে তার আদর্শ ও মূল্যবোধ সুদৃঢ় হয়। আধুনিক জ্ঞান ও প্রযুক্তিগত উদ্ভাবন ও আবিষ্কার 
+     জ্ঞানের সঞ্চরণ ও প্রভাবেরই নামান্তর। অন্যকে বিতরণ করলেও জ্ঞানের সঞ্চয় নিঃশেষ 
+     হয় না। কোনো প্রাকৃতিক বিপর্যয়ে জ্ঞান ধ্বংস হয় না।
+     <br> <br> 
+     পৃথিবীতে যারা জ্ঞানের ধারক ও বাহক তারাই শতাব্দীর পর শতাব্দী ধরে স্মরণীয় হয়ে আছেন।
+      মানুষের হৃদয় ও ইতিহাসের পাতায় তাঁদের জ্ঞানের প্রতিফলন অমর হয়ে আছে। তাঁদের 
+      আদর্শ অনুকরণ ও অনুসরণ করে অন্যরাও জ্ঞানী হয়ে ওঠে প্রসংসা ও খ্যাতির অধিকারী
+       হয়। জ্ঞানীদের তৎপরতায়ই মানবসভ্যতা আজকের এ পর্যায়ে উন্নীত হতে পেরেছে। 
+       মহাকাল তাঁদের কীর্তিকেই সানন্দে ধারণ করে। অন্যদিকে অর্থ-সম্পদকে মহাকাল 
+       জ্ঞানের মতো মূল্য দেয় না। কেননা তা ক্ষণস্থায়ী।
+<br> <br> <br> <br>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Hello.js"></script>
+</body>
+</html>
+

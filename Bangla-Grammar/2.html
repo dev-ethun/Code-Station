@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable="no">
+    <title>Code Station </title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+     <!-- Menu Icon -->
+     <div class="menu-icon" onclick="toggleSidebar()">
+        <i class="fa-solid fa-bars-staggered"></i>
+     </div>
+     
+
+
+     <!-- Hidden Sidebar -->
+     <div class="sidebar" id="sidebar">
+         <h2 onclick="window.location.href='../index.html'">Code  <font  color="#80d4ff">Station</font> </h2>
+         <div class="content-div">
+
+            <details>
+                   <summary id="bangla">বাংলা</summary>
+                <ul id="bangla" type="disc">
+                    <li id="bangla" class="hov"  onclick="window.location.href='../Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ব্যাকরণ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> প্রবন্ধ রচনা </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারাংশ </li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সারমর্ম</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অনুচ্ছেদ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> খুদে গল্প</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দিনলিপি</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> সংলাপ</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i>  চিঠি-পত্র</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> দরখাস্ত</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাষণ লিখন</li>
+                       <li id="bangla" class="hov">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> অভিজ্ঞতা বর্ণনা</li> <br>
+                    <!-- <li id="bangla" class="hov"  onclick="window.location.href='./Bangla-Grammar/bng-Grammar.html'">&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fafe06;"></i> ভাবসম্প্রসারণ</li> -->
+                </ul>
+                </details>
+
+                <details>
+                    <summary>English</summary>
+                 <ul id="bangla" type="disc">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Grammar</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Paragraph </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Letter </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Application</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Email</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Completing Story</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Report Writing</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #fec0fb;"></i> Graphs & Chart</li> <br>
+                        
+                 </ul>
+                 </details>
+                 
+                <details>
+                    <summary>ICT</summary>
+                 <ul id="bangla" type="disc"  class="pad">
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 1</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 2 </li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 3</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 4</li>
+                        <li>&nbsp; <i class="fa-solid fa-star fa-2xs" style="color: #ccffa7;"></i> Chapter 5</li> <br>
+                        
+                 </ul>
+                 </details>
+         <!-- <a href="#" onclick="home()"><i class="fa-solid fa-house-laptop" style="color: #74C0FC;"></i>&nbsp; Home</a> 
+         <a href="#" onclick="Edu()"><i class="fa-solid fa-book-open-reader " style="color: #74c0fc;"></i> &nbsp; <font  color="silver"><b>Education</b></font></a> 
+         <a href="#"onclick="course()"> <i class="fa-solid fa-graduation-cap" style="color: #74C0FC;"></i> &nbsp;Course</a>
+         <a href="#" onclick="project()"> <i class="fa-solid fa-diagram-project" style="color: #74C0FC;"></i> &nbsp; Projects</a>
+         <a href="#" onclick="about()"> <i class="fa-solid fa-address-card" style="color: #74C0FC;"></i> &nbsp; About Me</a>
+         <a href="#" onclick="contact()">  <i class="fa-solid fa-phone" style="color: #74C0FC;"> &nbsp; </i>Contact</a> -->
+
+        </div> <br> <br> <br> <br> <br> <br>
+</div>
+
+<div class="animate__animated animate__fadeIn" id="vab1"> জীবে প্রেম করে যেই জন <br> সেই জন সেবিছে ঈশ্বর <div class="line"></div></div>
+<p id="content"  class="animate__animated animate__fadeIn"> <br>
+   <b> মূলভাব &nbsp;<i class="fa-regular fa-clock fa-sm" style="color: #005eff;"></i></b>
+
+   জীবের আত্মারূপে স্রষ্টা জীবের মধ্যে অবস্থান করেন। 
+   তাই জীবের সেবা করলেই স্রষ্টার সেবা করা হয়। বস্তুত জীবের প্রতি আন্তরিক না হয়ে স্রষ্টার নৈকট্য লাভ 
+   করা যায় না। সৃষ্টিকে ভালোবাসার মাধ্যমেই কেবল স্রষ্টার সান্নিধ্য লাভ করা যায়। <br>
+
+    <br> <b>সম্প্রসারিত-ভাব <i class="fa-regular fa-circle-check fa-sm" style="color: #27b400;"></i> </b>
+    মহাবিশ্বে যা কিছু রয়েছে সবই স্রষ্টার সৃষ্টি। সমস্ত
+    জীবজগৎ তিনিই সৃষ্টি করেছেন পরম যত্নে, যেমন পরম ভালোবাসায় সৃষ্টি করেছেন মানুষ। 
+    তাঁর মহাশক্তির ক্ষুদ্রাংশ শক্তি জীবজগতের প্রত্যেকের মধ্যে বিরাজমান। অর্থাৎ জীবজগতের 
+    সবকিছুর মধ্যেই তাঁর শক্তির উপস্থিতি রয়েছে। কাজেই জীবের প্রতি দয়া পদর্শন করা আমাদের 
+    প্রত্যেকেরই কর্তব্য। কেননা জীবসেবা করলেই প্রকারান্তরে স্রষ্টার সেবা করা হয়।জীবের প্রতি যত্নবান হলে বা 
+    জীবকে ভালোবাসলে সৃষ্টিকর্তার প্রতি ভালোবাসা প্রদর্শন করা হয়। এ জন্যেই স্বমী বিবেকানন্দ বলেছেন-
+<br>
+    <i>    " জীবে প্রেম করে যেই জন <br> সেই জন সেবিছে ঈশ্বর "</i>
+<br>
+সংসারের সবকিছুর স্পর্শে থেকেই ঈশ্বরের আরাধনা করা যায়। লোকচক্ষুর অন্তরালে ধ্যানমগ্ন হলেই সৃষ্টিকর্তার সান্নিধ্য 
+লাভ করা যায় না। আবার নির্জনে আরাধনা করলেই ঈশ্বর লাভে পূর্ণতা আসে না। স্রষ্টা মানুষকে সৃষ্টি করেছেন মানবীয়
+ গুণাবলি দিয়ে, জ্ঞান ও বিবেক বুদ্ধি দিয়ে। যে কারণে জীবজগতের মধ্যে মানুষ সেরা। কোজেই সেরা হিসেবে মানুষের 
+ প্রতি যেমন মানুষের দায়িত্ব ও কর্তব্য রয়েছে, তেমনি প্রতিটি জীবের প্রতিও রয়েছে সমান দায়িত্ব ও কর্তব্য। জীবে 
+ সেবা না করে শুধু ঈশ্বর সেবায় মগ্ন হলে প্রকৃতপক্ষে ঈশ্বরের সন্তুষ্টি লাভ করা যায় না। জীব জগৎ নিধনে ব্যাপৃত
+  হলে একসময় মনুষ্যজীবনও বিপন্ন হয়ে পড়ে। এজন্য বৌদ্ধধর্মে বলা হয়েছে "জীবহত্যা মহাপাপ"। কথাটা বর্তমান 
+  পৃথিবীতে অধিকতর প্রণিধানযোগ্য। উদ্ভিদ ও জীবজগৎ ধ্বংস করার ফলে পার্থিব পরিবেশ বিপন্ন হয়ে পড়েছে। আর 
+  তার প্রায়শ্চিত্ত করতে হচ্ছে মানুষকেই। অর্থাৎ সবচেয়ে বেশি প্রভাব পড়ছে মানুষের উপর। জীবন ক্রমশ দুর্বিষহ
+   হয়ে উঠছে। মানুষ তার মনবতাবোধের সক্রিয়তায় অসাম্য, বিভেদ, লোভ, হিংসা দূর করার পরিবর্তে নিজেই হয়ে
+    উঠছে লোভী, স্বার্থপর, হিংস্র। তাই জীবকে অবজ্ঞা ও অবহেলা করলে, জীবের প্রতি অমানবিক হলে ঈশ্বরকেই 
+    অবজ্ঞা করা হয়- এই বোধ আমাদেরকে লালন ও পালন করতে হবে। আন্তরিকভাবে এগিয়ে আসতে হবে জীবসেবায়, 
+    জীবকে ভালোবাসায়।
+
+<br> <br> <br> <br>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../Hello.js"></script>
+</body>
+</html>
+
