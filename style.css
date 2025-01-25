@@ -55,12 +55,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:black;
+    background-color:white;
     width: 50px;
     border-radius: 50px;
     height: 50px;
     position: fixed;
-    color: white;
+    /* color: white; */
     top: 10px;
     left: 10px;
     z-index: 1000;
@@ -186,7 +186,7 @@ p{
 
 @media screen and (max-width:768px){
     .welcome{
-        margin-top: 85%;
+        margin-top: 75%;
         width: 100%;
         height:auto;
         flex-direction: column;
@@ -253,10 +253,12 @@ ul li{
 
 
 .logo{
-    width: 100%;
-    height: auto;
-    margin-top: 20%;
+    width: 90%;
+    height: 6rem;
+    margin-top: 40%;
     display: flex;
+				margin-left: 10%;
+				padding-bottom: 30%;
     justify-content: center;
     position: absolute;
     align-items: center;
@@ -379,6 +381,65 @@ b{
     font-family: bng;
     font-size: 4.2vw;
 }
+.footer{
+	width: 100%;
+	height: 5rem;
+	/* background-color: black; */
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	/* justify-content: space-evenly; */
+	justify-content: flex-start;
+	z-index: -1;
+	position: absolute;
+}
+.flower-logo{
+position: fixed;
+float: left;
+bottom: 0;
+}
+.text2{
+	width: 60%;
+	padding-bottom: 20%;
+	height: 7rem;
+	font-size: 3vw;
+	position: absolute;
+	display: flex;
+	justify-content: center;
+	/* background-color: black; */
+	/* color: white; */
+	margin-left: 40%;
+}
+.copy{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position:fixed;
+	bottom: 0;
+	padding-bottom:3%;
+}
+
+
+button {
+	position: absolute;
+	width: 40%;
+	margin-left: 30%;
+	margin-top: 130%;
+	font-size: 4.5vw;
+	height: 3.7rem;
+	border-radius: 50px;
+	background:gold;
+	border: none;
+	/* box-shadow: 0px 05px 10px rgb(197, 197, 197); */
+	transition-duration:0.3s;
+}
+
+button:active {
+	transform: scale(.9);
+}
+
 }
 
 
