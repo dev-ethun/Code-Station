@@ -553,12 +553,10 @@ button:active {
     align-self: center;
     height:13rem;
     border-radius: 5px;
-    background-image: url(/Pic/Greedy-farmer.jpg);
+    background-image: url(./Pic/Greedy-farmer.jpg);
     background-size: cover;
 }
-#Greedy-farmer{
 
-}
 
 #bayezid{
     font-size: 5vw;
@@ -588,7 +586,9 @@ button:active {
     display: flex;
     justify-content: center;
 }
-}
+
+
+
 .explain-story-bn{
     width: 90%;
     margin-left: 5%;
@@ -623,7 +623,9 @@ button:active {
     background-color: rgb(216, 237, 255);
     border-radius: 50px;
 }
+
+
+
+
 }
-
-
 
