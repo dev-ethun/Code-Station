@@ -487,7 +487,7 @@ button:active {
 
 #story-heading{
     width: 100%;
-    height: 6rem;
+    height: 4rem;
     background-color: white;
     top: 0;
     z-index: 1;
@@ -535,10 +535,10 @@ button:active {
     color: black;
     font-size: 4vw;
     font-weight: bold;
-    width: 70%;
+    width: 90%;
     height: auto;
     background-color: rgb(200, 200, 246);
-    padding: 17px;
+    padding: 15px;
     border-bottom-right-radius: 50px;
     border-top-left-radius: 5px;
     padding-left: 10%;
@@ -546,7 +546,9 @@ button:active {
 .text-box{
     width: 85%;
     margin-left: 5%;
-    height: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #story-pic{
     width: 85%;
@@ -624,7 +626,20 @@ button:active {
     border-radius: 50px;
 }
 
-
+.more{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: black; */
+    width: 3rem;
+    border-radius: 50px;
+    font-size: 4vw;
+    padding: 5%;
+    color: blue;
+    /* color: rgb(255, 255, 255); */
+    height: 1rem;
+}
 
 
 }
