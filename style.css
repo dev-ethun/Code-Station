@@ -33,6 +33,13 @@
 }
 
 
+.hov-2{
+	transition-duration: .3s;
+}
+.hov-2:active{
+	color: rgb(55, 218, 255);
+	transform: scale(.9);
+}
 
 #copy{
     bottom: 0;
@@ -75,6 +82,21 @@
     position: fixed;
     left: -320px;
     color: white;
+    width: 75%;
+    height: 100vh;
+     overflow-x: hidden;
+    overflow-y: auto;
+    z-index: 1000;
+    background-color:black;
+    padding-top: 20px;
+    transition: left 0.3s ease;
+    z-index: 999;
+}
+
+.sidebarOff{
+    position: fixed;
+    right: 320px;
+    color: white;
     width: 66%;
     height: 100vh;
      overflow-x: hidden;
@@ -89,6 +111,10 @@
 /* Sidebar Visible State */
 .sidebar.active {
     left: 0;
+}
+
+.sidebarOff.inactive{
+	right: 320px;
 }
 
 .sidebar h2 {
@@ -217,7 +243,7 @@ ul{
 ul li{
     margin-left: 10%;
     list-style: none;
-    opacity: .7;
+    opacity: 1;
     margin-top: 5%;
 }
     summary {
@@ -440,6 +466,163 @@ button:active {
 	transform: scale(.9);
 }
 
+#update{
+	width: 100%;
+	font-size: 3vw;
+	padding: 6px;
+	height: auto;
+	background-color: red;
+	border-radius: 50px;
+	color: white;
+}
+
+#release{
+	width: 100%;
+	font-size: 3.4vw;
+	padding: 6px;
+	height: auto;
+	background-color:black;
+	border-radius: 50px;
+}
+
+#story-heading{
+    width: 100%;
+    height: 6rem;
+    background-color: white;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    text-align: center;
+    box-shadow: 0px 07px 20px rgb(203, 203, 203);
+    /* background: linear-gradient(190deg,rgb(61, 61, 255),rgb(184, 234, 254)) ; */
+    font-weight: bold;
+    font-size: 5.5vw;
+    justify-content: center;
+    align-content: center;
+
+}
+#st-bg{
+    background-color:rgb(248, 247, 247);
+}
+.story-main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    z-index: -1000;
+    flex-direction: column;
+    height:auto;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    position: absolute;
+    margin-top: 30%;
+    /* background-color: blue; */
+}
+.story-list{
+    width: 90%;
+    border-radius: 5px;
+    height: auto;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgb(223, 222, 222);
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+}
+
+#story-name{
+    color: black;
+    font-size: 4vw;
+    font-weight: bold;
+    width: 70%;
+    height: auto;
+    background-color: rgb(200, 200, 246);
+    padding: 17px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 5px;
+    padding-left: 10%;
+}
+.text-box{
+    width: 85%;
+    margin-left: 5%;
+    height: 5rem;
+}
+#story-pic{
+    width: 85%;
+    align-self: center;
+    height:13rem;
+    border-radius: 5px;
+    background-image: url(/Pic/Greedy-farmer.jpg);
+    background-size: cover;
+}
+#Greedy-farmer{
+
+}
+
+#bayezid{
+    font-size: 5vw;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bayezid-bangla{
+    font-size: 5.3vw;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: bng;
+}
+.explain-story{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+}
+.explain-story-bn{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 5%;
+    /* font-family: bng; */
+    height: auto;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+}
+
+
+#story-pic2{
+    width: 85%;
+    align-self: center;
+    height:13rem;
+    border-radius: 5px;
+    background-image: url(/Pic/Greedy.jpg);
+    background-size: cover;
+}
+#more-button{
+    width: 50%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 6%;
+    font-size: 4vw;
+    /* font-weight: bold; */
+    padding: 10px;
+    margin-left: 25%;
+    background-color: rgb(216, 237, 255);
+    border-radius: 50px;
+}
 }
 
 

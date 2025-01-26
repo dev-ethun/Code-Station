@@ -4,6 +4,10 @@ function toggleSidebar() {
     document.getElementById("sidebar").classList.toggle("active");
 }
 
+function off() {
+    document.getElementById("sidebarOff").classList.toggle("inactive");
+}
+
 
 function hey(){
     window.location.href='./hey.html'
